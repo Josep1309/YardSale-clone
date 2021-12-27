@@ -1,0 +1,143 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+}
+
+header .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-container img {
+    width: 194px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+header .header-container button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    align-self: flex-end;
+    background-color: #00000000;
+    background-image: url("../icons/icon_close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 70vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-email-text {
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+main .main-email-container {
+    width: 100%;
+    text-align: center;
+}
+
+main .email-input {
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #F7F7F7;
+}
+
+main .main-password-text {
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+main .main-password-container {
+    width: 100%;
+    text-align: center;
+}
+
+main .password-input {
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: none;
+    background-color: #F7F7F7;
+}
+
+main .main-login-button {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    background-color: #acd9b2;
+}
+
+main .main-forgot-button {
+    max-width: 400px;
+    text-decoration: none;
+    color: #acd9b2;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 150px;
+}
+
+main .main-signup-button {
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid #acd9b2;
+    color: #acd9b2;
+}

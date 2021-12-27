@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 194px;
+    height: 40px;
+}
+
+main {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main .info-message {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: #757575;
+}
+
+main span {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background-image: url("../icons/email.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main button {
+    width: 90%;
+    max-width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #acd9b2;
+}
+
+main .resend {
+    font-size: 1.4rem;
+    color: #757575;
+}
+
+main .resend a {
+    text-decoration: none;
+    color: #acd9b2;
+}
